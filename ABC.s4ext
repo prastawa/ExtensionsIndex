@@ -7,7 +7,7 @@
 # This is source code manager (i.e. svn)
 scm svn
 scmurl https://www.nitrc.org/svn/abc/trunk
-scmrevision 62
+scmrevision 64
 
 # list dependencies
 # - These should be names of other modules that have .s4ext files
@@ -15,7 +15,7 @@ scmrevision 62
 depends     NA
 
 # Inner build directory (default is .)
-build_subdirectory inner-build
+build_subdirectory .
 
 # homepage
 homepage    http://www.nitrc.org/projects/abc
@@ -28,7 +28,7 @@ contributors Marcel Prastawa (University of Utah)
 category    Segmentation
 
 # url to icon (png, size 128x128 pixels)
-#iconurl     http://
+iconurl     http://www.nitrc.org/project/screenshot.php?group_id=297&screenshot_id=573
 
 # Give people an idea what to expect from this code
 #  - Is it just a test or something you stand beind?
